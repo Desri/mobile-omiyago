@@ -378,3 +378,17 @@ footer .copyright p span{
   font-size: 12px;
   font-family: serif;
 }
+.menuButton .colCartButton a {
+  font-size: 16px;
+  margin-top: 5px;
+  padding: 6px 8px;
+  border: 1px solid #CCCCCC;
+}
+.menuButton .colBtnBuy {
+  padding-right: 15px;
+}
+.menuButton .colBtnBuy button{
+  width: 100%;
+  color: #ffffff;
+  background-color: #009975;
+}
