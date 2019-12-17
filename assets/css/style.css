@@ -234,6 +234,9 @@ button.slick-next {
   font-weight: 500;
 }
 
+.detailPage {
+  padding-top: 52px;
+}
 #masterBannerProduk .slideThumb .slider figure {
   margin-bottom: 0px;
 }
