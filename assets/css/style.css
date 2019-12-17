@@ -58,7 +58,12 @@ img::-moz-selection {
   color: #fff;
   background: transparent;
 }
-
+.slick-track {
+  /* width: 100% !important; */
+}
+button.slick-next {
+  display: none !important;
+}
 #mainNav {
   position: absolute;
   background: transparent;
@@ -350,6 +355,42 @@ img::-moz-selection {
   font-weight: 600;
   margin: 10px 0px 10px 0px;
 }
+.back h2 i {
+  color: #969696;
+}
+.back .formSearch{
+  padding-top: 3px;
+}
+.back .formSearch form {
+  position: relative;
+}
+.back .formSearch form input{
+  padding-left: 32px;
+}
+.back .formSearch form .form-group{
+  margin-bottom: 0px;
+}
+.back .formSearch form button{
+  top: 0;
+  left: 0;
+  border: 0px;
+  position: absolute;
+  background: transparent;
+}
+.back .formSearch form button i{
+  color: #969696;
+}
+.back .iconHeader {
+  padding-top: 7px;
+}
+.back .iconHeader .colIcon{
+  float: left;
+  width: 27px;
+  text-align: center;
+}
+.back .iconHeader .colIcon i{
+  color: #969696;
+}
 #checkout {
   padding-top: 65px;
 }
@@ -534,7 +575,7 @@ footer .copyright p span{
   border: 1px solid #CCCCCC;
 }
 .menuButton .colBtnBuy {
-  padding-right: 15px;
+  /* padding-right: 15px; */
 }
 .menuButton .colBtnBuy button{
   width: 100%;
