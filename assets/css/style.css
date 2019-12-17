@@ -192,6 +192,27 @@ img::-moz-selection {
   float: right;
 }
 
+#related .colTitle{
+  text-align: center;
+}
+#related .colTitle h4{
+  font-family: serif;
+}
+#related .colRelated img {
+  width: 100%;
+}
+#related .colRelated .descProduk h2 {
+  font-family: serif;
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+#related .border-bottom {
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+
 
 #icons .cols {
   float: left;
@@ -316,6 +337,134 @@ img::-moz-selection {
   margin-top: -5px;
   font-weight: 600;
 }
+
+.back {
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  background: #ffffff;
+  border-bottom: 1px solid #dddddd;
+}
+.back h2{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0px 10px 0px;
+}
+#checkout {
+  padding-top: 65px;
+}
+#checkout .addAddress p {
+  margin: 0px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #939393;
+}
+#checkout .addAddress .btnModal button {
+  text-align: center;
+  border: 1px solid blue;
+  width: 100%;
+}
+#modalAddAddress .modal-header h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+#modalAddAddress .modal-body form .form-group {
+  margin-bottom: 0px;
+}
+#modalAddAddress .modal-body form .form-group input{
+  color: #dddddd;
+  font-size: 14px;
+}
+#modalAddAddress .modal-body form .form-group textarea{
+  color: #dddddd;
+  font-size: 14px;
+}
+#modalAddAddress .modal-body form .form-group label {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+#modalAddAddress .modal-body form .form-group .form-check label {
+  top: -7px;
+  position: relative;
+}
+#checkout .coldetailCheckout {
+  padding: 10px;
+  margin-top: 30px;
+  border: 1px solid #dddddd;
+}
+#checkout .coldetailCheckout .detailCheckout {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c7c7c7;
+}
+#checkout .coldetailCheckout .detailCheckout .media img {
+  width: 70px;
+}
+#checkout .coldetailCheckout .detailCheckout .media .media-body h5 {
+  font-size: 12px;
+  line-height: normal;
+  color: rgba(0, 0, 0, .7);
+  font-weight: 600;
+}
+#checkout .coldetailCheckout .detailCheckout .media .media-body p {
+  margin: 0px;
+  font-size: 14px;
+}
+#checkout .coldetailCheckout .detailCheckout .formIncrement{
+  overflow: hidden;
+}
+#checkout .coldetailCheckout .detailCheckout .formIncrement .subPrice {
+  color: red;
+  font-size: 13px;
+  padding-top: 10px;
+}
+#checkout .coldetailCheckout .detailCheckout .formIncrement button{
+  color: #ffffff;
+  font-size: 14px;
+  background: #17a2b8;
+  border: 1px solid #17a2b8;
+}
+#checkout .coldetailCheckout .detailCheckout .formIncrement input{
+  width: 40px;
+  font-size: 14px;
+}
+#checkout .coldetailCheckout .catatan label {
+  font-size: 14px;
+}
+#checkout .coldetailCheckout .catatan textarea {
+  border: 1px solid #009975;
+}
+#checkout .coldetailCheckout .colbtnShop {
+  margin-top: 20px;
+}
+#checkout .coldetailCheckout .colbtnShop .moreShop {
+  text-align: center;
+  background: #007bff;
+  width: 170px;
+  margin: auto;
+  border-radius: 3px;
+  padding: 3px 3px 5px 3px;
+}
+#checkout .coldetailCheckout .colbtnShop .moreShop a{
+  color: #ffffff;
+  font-size: 15px;
+}
+.priceTotal {
+  font-size: 17px;
+  font-weight: 600;
+  color: #4b4b4b;
+  padding-top: 6px;
+}
+.btnBayar button {
+  background: #007bff;
+  color: #ffffff;
+  float: right;
+  font-size: 14px;
+}
+
+
+
+
 
 
 footer {

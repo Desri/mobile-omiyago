@@ -108,7 +108,51 @@
     </div>
   </section>
 
-  
+  <section id="related">
+    <div class="container">
+      <div class="row">
+       <div class="col-12 border-bottom">
+         <div class="colTitle">
+           <h4>Produk Terkait</h4>
+         </div>
+       </div>
+      </div>
+      <div class="row">
+        <div class="col-3 p-1">
+          <div class="colRelated">
+            <img src="assets/img/produk1.jpg">
+            <div class="descProduk">
+              <h2>Keripik Talas Omiyago</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 p-1">
+          <div class="colRelated">
+            <img src="assets/img/produk2.jpg">
+            <div class="descProduk">
+              <h2>Keripik Singkong Balado Omiyago</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 p-1">
+          <div class="colRelated">
+            <img src="assets/img/produk3.jpg">
+            <div class="descProduk">
+              <h2>Kacang Telur Medan Manis Omiyago 100gr</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 p-1">
+          <div class="colRelated">
+            <img src="assets/img/produk4.jpg">
+            <div class="descProduk">
+              <h2>Bawang Goreng Gobang</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
   <footer>
@@ -224,18 +268,7 @@
       focusOnSelect: true
     });
 
-    // Remove active class from all thumbnail slides
-    $('.slider-nav-thumbnails .slick-slide').removeClass('slick-active');
-
-    // Set active class to first thumbnail slides
-    $('.slider-nav-thumbnails .slick-slide').eq(0).addClass('slick-active');
-
-    // On before slide change match active thumbnail to current slide
-    $('.slider').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-      var mySlideNumber = nextSlide;
-      $('.slider-nav-thumbnails .slick-slide').removeClass('slick-active');
-      $('.slider-nav-thumbnails .slick-slide').eq(mySlideNumber).addClass('slick-active');
-    });
+    
     
   </script>
 
