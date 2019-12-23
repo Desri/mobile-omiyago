@@ -235,16 +235,19 @@ button.slick-next {
 }
 
 .detailPage {
-  padding-top: 52px;
+  padding-top: 58px;
 }
-#masterBannerProduk .slideThumb .slider figure {
-  margin-bottom: 0px;
+#masterBannerProduk .slideThumb .owl-carousel {
+  position: relative;
+}
+#masterBannerProduk .slideThumb .owl-carousel .owl-dots {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  text-align: center;
 }
 #masterBannerProduk .titleProduk {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
+  margin: 15px;
   border-bottom: 1px solid #c9c9c9;
 }
 #masterBannerProduk .titleProduk h2 {
@@ -256,6 +259,7 @@ button.slick-next {
   font-size: 22px;
   font-family: serif;
   margin-bottom: 0px;
+  padding-bottom: 15px;
 }
 #masterBannerProduk .titleProduk .priceDetail h3 span {
   color: #c5c5c5;
@@ -274,6 +278,12 @@ button.slick-next {
   font-size: 13px;
   color: #6e6e6e;
   font-family: serif;
+}
+#masterBannerProduk .owl-theme .owl-dots .owl-dot span {
+  background: #ffffff;
+}
+#masterBannerProduk .owl-theme .owl-dots .owl-dot.active span {
+  background: #1ABC9C;
 }
 
 
@@ -345,18 +355,46 @@ button.slick-next {
   margin-top: -5px;
   font-weight: 600;
 }
+#colProduk .item {
+  border: 1px solid #dddddd;
+  border-radius: 7px;
+  box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px;
+}
+#colProduk .item .descProduk {
+  height: 95px;
+  padding: 5px 10px 10px 10px;
+}
+#colProduk .headingLatest {
+  padding-top: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+  border-top: 1px solid #f1f1f1;
+}
 
 .back {
   width: 100%;
+  height: 50px;
   z-index: 999;
   position: fixed;
+  padding-top: 6px;
   background: #ffffff;
   border-bottom: 1px solid #dddddd;
 }
+.backDetail {
+  height: 60px;
+  padding-top: 4px;
+}
 .back h2{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   margin: 10px 0px 10px 0px;
+}
+.back h2.daftarText{
+  font-size: 15px;
+  text-align: right;
+}
+.back h2.daftarText a{
+  color: #009975;
 }
 .back h2 i {
   color: #969696;
@@ -368,7 +406,7 @@ button.slick-next {
   position: relative;
 }
 .back .formSearch form input{
-  padding-left: 32px;
+  padding-left: 35px;
 }
 .back .formSearch form .form-group{
   margin-bottom: 0px;
@@ -507,6 +545,72 @@ button.slick-next {
 }
 
 
+/** Login **/
+#login {
+  padding-top: 50px;
+}
+#login .loginForm {
+  margin-top: 30px;
+}
+#login .loginForm form{
+  text-align: center;
+}
+#login .loginForm form input {
+  height: 40px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0px;
+}
+#login .loginForm form input:focus {
+  box-shadow: none;
+}
+#login .loginForm form button {
+  width: 100%;
+  height: 40px;
+  color: #a0a0a0;
+  background: #dddddd;
+  border: 1px solid #dddddd;
+}
+#login .or {
+  display: flex;
+  padding-top: 25px;
+  text-align: center;
+  align-items: center;
+}
+#login .or span{
+  font-size: 12px;
+  color: #aeaeae;
+  padding: 0 16px;
+  white-space: nowrap;
+}
+#login .or span.lines{
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+#login .loginSosmed {
+  margin-top: 25px;
+}
+#login .loginSosmed button{
+  width: 100%;
+  height: 40px;
+  color: #777777;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+#login .textDaftar {
+  margin-top: 10px;
+}
+#login .textDaftar p {
+  margin: 0px;
+  color: #888888;
+  font-size: 12px;
+  text-align: center;
+}
+#login .textDaftar p a{
+  color: #009975;
+}
 
 
 
@@ -585,3 +689,49 @@ footer .copyright p span{
   color: #ffffff;
   background-color: #009975;
 }
+
+
+#menuButtonDetail {
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  background: #ffffff;
+}
+#menuButtonDetail .colChatButton {
+  height: 100%;
+  text-align: center;
+  background: #1ABC9C;
+}
+#menuButtonDetail .colChatButton i{
+  color: #ffffff;
+}
+#menuButtonDetail .colChatButton a p{
+  margin: 0px;
+  color: #ffffff;
+  font-size: 10px;
+}
+#menuButtonDetail .colCartButton {
+  height: 100%;
+  text-align: center;
+  background: #1ABC9C;
+}
+#menuButtonDetail .colCartButton i{
+  color: #ffffff;
+}
+#menuButtonDetail .colCartButton a p{
+  margin: 0px;
+  color: #ffffff;
+  font-size: 10px;
+}
+#menuButtonDetail .colBtnBuy {
+  height: 100%;
+  background: #e83e3e;
+  text-align: center;
+}
+#menuButtonDetail .colBtnBuy button{
+  color: #ffffff;
+  font-size: 17px;
+  padding-top: 9px;
+}
+
