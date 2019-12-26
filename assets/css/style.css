@@ -90,7 +90,7 @@ button.slick-next {
 }
 #mainNav .iconTop {
   width: 20%;
-  margin-top: -11px;
+  margin-top: 4px;
 }
 #mainNav .iconTop .iconNavbar {
   float: left;
@@ -122,58 +122,11 @@ button.slick-next {
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: 992px) {
-  #mainNav {
-    border-bottom: 1px solid transparent;
-    background: transparent;
-  }
-  #mainNav .navbar-brand {
-    padding: 10px 20px;
-    color: #fff;
-  }
-  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: rgba(255, 255, 255, 0.8);
-  }
-  #mainNav .navbar-nav > li.nav-item > a {
-    padding: 10px 20px;
-    color: #fff;
-  }
-  #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: rgba(255, 255, 255, 0.8);
-  }
+.navbarCategory {
+  background: #009975 !important;
 }
-
-@media only screen and (min-width: 992px) {
-  #mainNav {
-    transition: background-color 0.2s;
-    /* Force Hardware Acceleration in WebKit */
-    transform: translate3d(0, 0, 0);
-    -webkit-backface-visibility: hidden;
-  }
-  #mainNav.is-fixed {
-    /* when the user scrolls down, we hide the header right above the viewport */
-    position: fixed;
-    top: -67px;
-    transition: transform 0.2s;
-    border-bottom: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.9);
-  }
-  #mainNav.is-fixed .navbar-brand {
-    color: #212529;
-  }
-  #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
-  }
-  #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-    color: #212529;
-  }
-  #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
-  }
-  #mainNav.is-visible {
-    /* if the user changes the scrolling direction, we show the header */
-    transform: translate3d(0, 100%, 0);
-  }
+.navbarCategory form .form-group {
+  margin-bottom: 0px;
 }
 
 #slideProduk .slidercontent .owl-nav {
@@ -247,7 +200,7 @@ button.slick-next {
   text-align: center;
 }
 #masterBannerProduk .titleProduk {
-  margin: 15px;
+  margin: 15px 0px;
   border-bottom: 1px solid #c9c9c9;
 }
 #masterBannerProduk .titleProduk h2 {
@@ -267,9 +220,6 @@ button.slick-next {
   text-decoration: line-through;
 }
 
-#masterBannerProduk .descProdukDetail {
-  margin: 15px;
-}
 #masterBannerProduk .descProdukDetail h1 {
   font-size: 13px;
   font-weight: bolder;
@@ -369,6 +319,9 @@ button.slick-next {
   text-align: center;
   margin-bottom: 15px;
   border-top: 1px solid #f1f1f1;
+}
+.produkCategory {
+  margin-top: 53px !important;
 }
 
 .back {
