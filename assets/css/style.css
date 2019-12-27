@@ -565,6 +565,29 @@ button.slick-next {
   color: #009975;
 }
 
+/** Action Sheet **/
+#btnShow {
+  padding-top: 3px;
+}
+.as-list-cell-active {
+  background-color: #009975;
+}
+.as-bg {
+  opacity: 0.6;
+  background-color: #000000;
+}
+.as-list-cell {
+  border-bottom: 1px solid #eae8e8;
+}
+.actionSheet {
+  position: fixed !important;
+}
+.actionSheet .as-list-cell-label {
+  text-align: left;
+  padding: 15px;
+  font-size: 16px;
+}
+
 
 
 
