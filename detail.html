@@ -62,7 +62,7 @@
             <div class="shareIcon colIcon">
               <i class="fa fa-share-alt" aria-hidden="true"></i>
             </div>
-            <div class="shareIcon colIcon">
+            <div class="shareIcon colIcon" data-toggle="modal" data-target="#modalCart">
               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
             </div>
             <div class="shareIcon colIcon">
@@ -283,6 +283,85 @@
 
   <div id="actionSheet"></div>
 
+  <!-- Modal -->
+  <div class="modal fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content-cart">
+        <div class="modal-header">
+          <div class="closer" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <h5 class="modal-title">Detail Produk</h5>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="produkCartDetail">
+            <div class="media">
+              <img src="assets/img/produk9.jpg" class="mr-3">
+              <div class="media-body">
+                <h5 class="mt-0">Keripik Singkong Pedas Omiyago</h5>
+                <div class="popupPrice">
+                  <p class="coret">Rp 15.000</p>
+                  <p class="fixPrice">Rp 12.000 <span>10% OFF</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="jumlah">
+            <div class="textQty float-left">
+              <span>Jumlah</span>
+            </div>
+            <div class="Qty float-right">
+              <form>
+                <button type="submit" class="btn btn-primary"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                  <input type="text" class="form-control" value="1">
+                <button type="submit" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i></button>
+              </form>
+            </div>
+          </div>
+          <div class="stok">
+            <p>Stok terbatas! <span>Tersedia > 50</span></p>
+          </div>
+          <div class="color">
+            <div class="textColor">
+              <p>Warna : <span>Hitam</span> </p>
+            </div>
+            <div class="check form-group">
+              <input class="form-check-inputs" type="radio" value="option1">
+              <label class="form-check-label">
+                Putih
+              </label>
+            </div>
+            <div class="check form-group">
+              <input class="form-check-inputs" type="radio" value="option2">
+              <label class="form-check-label">
+                Hitam
+              </label>
+            </div>
+          </div>
+          <div class="notes">
+            <form>
+              <div class="form-group">
+                <label>Catatan untuk penjual (Opsional)</label>
+                <textarea class="form-control" rows="4"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="btnBuy">
+            <div class="grandPrice float-left">
+              <p>Harga Barang</p>
+              <p class="prices">Rp 12.000</p>
+            </div>
+            <div class="buys float-right">
+              <button type="submit" class="btn btn-primary mb-2">Tambah ke Keranjang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="lib/jquery.actionSheet.js"></script>
@@ -307,13 +386,13 @@
         idField: 'id',
         backgroundColor:'#fff',
         color:'#333',
-        callback: function (graphid, graphlabel) {
-          $('#infoPanel').html('ID: ' + graphid + ', Label: ' + graphlabel);
-        }
       });
 
       $('#btnShow').click(function () {
         as.show();
+      });
+      $('#sa').click(function () {
+        as.hide();
       });
     });
   </script>
