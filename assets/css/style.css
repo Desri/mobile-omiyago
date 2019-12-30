@@ -387,6 +387,7 @@ button.slick-next {
 }
 #checkout {
   padding-top: 65px;
+  padding-bottom: 60px;
 }
 #checkout .addAddress p {
   margin: 0px;
@@ -425,25 +426,32 @@ button.slick-next {
 }
 #checkout .coldetailCheckout {
   padding: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
   border: 1px solid #dddddd;
 }
-#checkout .coldetailCheckout .detailCheckout {
+/*#checkout .coldetailCheckout .detailCheckout {
   padding-bottom: 10px;
   border-bottom: 1px solid #c7c7c7;
-}
+}*/
 #checkout .coldetailCheckout .detailCheckout .media img {
   width: 70px;
+  height: 65px;
 }
 #checkout .coldetailCheckout .detailCheckout .media .media-body h5 {
-  font-size: 12px;
-  line-height: normal;
-  color: rgba(0, 0, 0, .7);
-  font-weight: 600;
+  font-size: 14px;
+  color: #4d4d4d;
+  font-weight: bold;
 }
 #checkout .coldetailCheckout .detailCheckout .media .media-body p {
   margin: 0px;
   font-size: 14px;
+  font-weight: 600;
+}
+#checkout .coldetailCheckout .detailCheckout .media .media-body p.priceCoret {
+  color: #9c9c9c;
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: line-through;
 }
 #checkout .coldetailCheckout .detailCheckout .formIncrement{
   overflow: hidden;
@@ -484,6 +492,50 @@ button.slick-next {
   color: #ffffff;
   font-size: 15px;
 }
+#checkout .shipping {
+  overflow: hidden;
+  margin-top: 10px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #dddddd;
+}
+#checkout .shipping h2 {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 7px;
+}
+#checkout .shipping .valShipping button {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 2px 15px;
+  background: #1ABC9C;
+}
+#checkout .shipping .valShipping button:focus {
+  box-shadow: none;
+}
+#checkout .payment {
+  border-bottom: 0px;
+}
+#checkout .payment .listPayment ul {
+  padding-left: 0px;
+}
+#checkout .payment .listPayment ul li {
+  list-style: none;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #eaeaea;
+}
+#checkout .payment .listPayment ul li a{
+  font-size: 14px;
+  color: #585858;
+}
+#checkout .payment .listPayment ul li a img{
+  width: 50px;
+  margin-right: 10px;
+}
+.as-list-cell-label span {
+  float: right;
+}
 .priceTotal {
   font-size: 17px;
   font-weight: 600;
@@ -491,8 +543,9 @@ button.slick-next {
   padding-top: 6px;
 }
 .btnBayar button {
-  background: #007bff;
+  background: #e83e3e;
   color: #ffffff;
+  width: 110px;
   float: right;
   font-size: 14px;
 }
@@ -638,6 +691,11 @@ footer .copyright p span{
   position: fixed;
   padding: 3px 5px;
   background: #ffffff;
+}
+.menubuttonCheckout {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 4px solid #e6e6e6;
 }
 .menuButton .colMenus {
   text-align: center;
@@ -866,6 +924,30 @@ footer .copyright p span{
   margin-top: 5px;
   background: #e83e3e;
   border-color: #e83e3e;
+}
+
+.address {
+  padding-bottom: 20px;
+  border-bottom: 4px solid #e6e6e6;
+}
+.address .headingAddress h2 {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eaeaea;
+}
+.address .headingAddress h2 {
+  color: #474747;
+  font-size: 17px;
+  font-weight: 600;
+}
+.address .alamat p {
+  margin: 0px;
+  font-size: 14px;
+}
+.address .colChooseAddress .btnChoose button {
+  width: 100%;
+  color: #01906e;
+  margin-top: 13px;
+  border: 1px solid #01906e;
 }
 
 
