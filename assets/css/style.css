@@ -401,8 +401,28 @@ button.slick-next {
   border: 1px solid blue;
   width: 100%;
 }
+
+#actionSheetKupon p {
+  margin: 0px;
+  padding-left: 15px;
+  margin-top: 15px;
+  font-size: 17px;
+}
+#actionSheetKupon .as-list-cell .as-list-cell-label {
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+#actionSheetKupon .as-list-cell form input {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  line-height: 37px;
+  border-radius: 3px;
+  border: 1px solid #dddddd;
+}
 #modalAddAddress .modal-header h5 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
 }
 #modalAddAddress .modal-body form .form-group {
@@ -513,23 +533,23 @@ button.slick-next {
 #checkout .shipping .valShipping button:focus {
   box-shadow: none;
 }
-#checkout .payment {
+.payment {
   border-bottom: 0px;
 }
-#checkout .payment .listPayment ul {
+.payment .listPayment ul {
   padding-left: 0px;
 }
-#checkout .payment .listPayment ul li {
+.payment .listPayment ul li {
   list-style: none;
   padding-top: 13px;
   padding-bottom: 13px;
   border-bottom: 1px solid #eaeaea;
 }
-#checkout .payment .listPayment ul li a{
+.payment .listPayment ul li a{
   font-size: 14px;
   color: #585858;
 }
-#checkout .payment .listPayment ul li a img{
+.payment .listPayment ul li a img{
   width: 50px;
   margin-right: 10px;
 }
@@ -548,6 +568,35 @@ button.slick-next {
   width: 110px;
   float: right;
   font-size: 14px;
+}
+
+.borderKupon {
+  border-bottom: 4px solid #e6e6e6;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+.kupon {
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0px;
+}
+.kupon .textKupon {
+  font-size: 15px;
+  color: #01906e;
+}
+
+.kupon .btnKupon {
+  padding: 3px 10px;
+  border-radius: 5px;
+  background: rgb(255, 139, 0);
+}
+.kupon .btnKupon p {
+  margin: 0px;
+  font-size: 14px;
+  color: #ffffff;
 }
 
 
