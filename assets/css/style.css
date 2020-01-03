@@ -473,8 +473,32 @@ button.slick-next {
   font-weight: normal;
   text-decoration: line-through;
 }
+.colqty {
+  float: left;
+}
+.colTrash {
+  width: 70px;
+  float: right;
+  position: relative;
+}
+.colTrash .qty {
+  left: 0;
+  top: -8px;
+  position: absolute;
+}
+.colTrash .qty span{
+  font-size: 15px;
+}
+.colTrash i{
+  top: 0px;
+  float: right;
+  color: #5c5c5c;
+  font-size: 18px;
+  position: relative;
+}
 #checkout .coldetailCheckout .detailCheckout .formIncrement{
   overflow: hidden;
+  margin-top: 5px;
 }
 #checkout .coldetailCheckout .detailCheckout .formIncrement .subPrice {
   color: red;
@@ -484,6 +508,7 @@ button.slick-next {
 #checkout .coldetailCheckout .detailCheckout .formIncrement button{
   color: #ffffff;
   font-size: 14px;
+  border-radius: 50%;
   background: #17a2b8;
   border: 1px solid #17a2b8;
 }
