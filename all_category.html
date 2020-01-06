@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Pusat Camilan Dan Oleh Oleh Khas Nusantara | Omiyago</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+
+  <!-- Font Aweseom -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="lib/jquery.actionSheet.css" rel="stylesheet"/>
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    body {
+      height: 100%;
+      position: relative;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <div class="back backDetail">
+    <div class="container">
+      <div class="row">
+        <div class="col-1 p-1">
+          <h2><i class="fa fa-chevron-left" aria-hidden="true"></i></h2>
+        </div>
+        <div class="col-8 p-1">
+          <div class="formSearch">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Cari di omiyago...">
+              </div>
+              <button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="col-3 p-1">
+          <div class="iconHeader">
+            <div class="shareIcon colIcon">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </div>
+            <div class="shareIcon colIcon" data-toggle="modal" data-target="#modalCart">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </div>
+            <div class="shareIcon colIcon">
+              <div id="btnShow"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="allCategory" class="produkCategory">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-lg-4 mx-auto">
+          <div class="tabAllCategory">
+            <div class="row">
+              <div class="col-4 p-0">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link linkCategory active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Makanan Basah</a>
+                  <a class="nav-link linkCategory" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Makanan Ringan</a>
+                  <a class="nav-link linkCategory" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Omiyago Produk</a>
+                  <a class="nav-link linkCategory" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Kopi Nusantara</a>
+
+                  <a class="nav-link linkCategory minuman" id="minuman-tab" data-toggle="pill" href="#minuman" role="tab" aria-controls="minuman" aria-selected="false">Minuman</a>
+
+                  <a class="nav-link linkCategory" id="bumbu-tab" data-toggle="pill" href="#bumbu" role="tab" aria-controls="bumbu" aria-selected="false">Bumbu & Rempah</a>
+
+                  <a class="nav-link linkCategory" id="sambal-tab" data-toggle="pill" href="#sambal" role="tab" aria-controls="sambal" aria-selected="false">Sambal & Saus</a>
+
+                  <a class="nav-link linkCategory" id="jelajah-tab" data-toggle="pill" href="#jelajah" role="tab" aria-controls="jelajah" aria-selected="false">Jelajah Nusantara</a>
+
+                  <a class="nav-link linkCategory" id="all-tab" data-toggle="pill" href="#all" role="tab" aria-controls="all" aria-selected="false">Semua Produk</a>
+
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <div class="listCategories">
+                      <div class="row">
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk1.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk2.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk3.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk4.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk5.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk6.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <div class="listCategories">
+                      <div class="row">
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk1.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk4.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk5.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk1.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk3.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk4.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <div class="listCategories">
+                      <div class="row">
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk6.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk5.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk4.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk3.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk2.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk1.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <div class="listCategories">
+                      <div class="row">
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk4.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk3.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk2.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk1.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk6.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk2.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="minuman" role="tabpanel" aria-labelledby="minuman-tab">
+                    <div class="listCategories">
+                      <div class="row">
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk1.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk2.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk3.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk4.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk5.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk6.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="bumbu" role="tabpanel" aria-labelledby="bumbu-tab">
+                    <div class="listCategories">
+                      <div class="row">
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk1.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk2.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk5.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk6.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk3.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk4.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="sambal" role="tabpanel" aria-labelledby="sambal-tab">
+                    <div class="listCategories">
+                      <div class="row">
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk6.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk5.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk3.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk2.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk1.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk3.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="jelajah" role="tabpanel" aria-labelledby="jelajah-tab">
+                    <div class="listCategories">
+                      <div class="row">
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk1.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk2.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk3.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk4.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk5.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk6.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="all" role="tabpanel" aria-labelledby="all-tab">
+                    <div class="listCategories">
+                      <div class="row">
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk1.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk4.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk1.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk2.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk6.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 p-2">
+                          <div class="item">
+                            <div class="cards h-100">
+                              <a href="detail.html">
+                                <img class="card-img-top" src="assets/img/produk5.jpg" alt="">
+                                <div class="descProduk">
+                                  <h2>Keripik Talas Omiyago</h2>
+                                  <div class="price">
+                                    <del>Rp 21.000</del>
+                                    <p>Rp 12.000</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-lg-4 mx-auto">
+          <div class="footerLink">
+            <div class="heading">
+              <h2>INFORMASI</h2>
+            </div>
+            <div class="row">
+              <div class="col-6 col-sm-6">
+                <div class="linkFooter">
+                  <ul>
+                    <li>
+                      <a href="#">» Tentang Kami</a>
+                    </li>
+                    <li>
+                      <a href="#">» Lokasi Kami</a>
+                    </li>
+                    <li>
+                      <a href="#">» FAQ</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-6 col-sm-6">
+                <div class="linkFooter">
+                  <ul>
+                    <li>
+                      <a href="#">» Telp : +6221 5601525</a>
+                    </li>
+                    <li>
+                      <a href="#">» Email : cs@omiyago.com</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="footerLink">
+            <div class="heading">
+              <h2>PEMBAYARAN</h2>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-12">
+                <div class="linkFooter">
+                  <img src="assets/img/payment.png" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="footerLink">
+            <div class="heading">
+              <h2>JASA PENGIRIMAN</h2>
+            </div>
+            <div class="row">
+              <div class="col-12 colsm-12">
+                <div class="linkFooter">
+                  <img src="assets/img/shipping.png" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>© 2017 Design by <span>Omiyago</span></p>
+            <p>Power by <span>PT. Global Kuliner Ciptarasa</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="actionSheet"></div>
+
+  <div class="menuButton">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-lg-4 mx-auto">
+          <div class="row">
+            <div class="col-3">
+              <div class="colMenus">
+                <a href="index.html">
+                  <img src="assets/img/home.png" class="img-fluid">
+                  <p>Omiyago</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="colMenus">
+                <a href="category.html">
+                  <img src="assets/img/kategori.png" class="img-fluid">
+                  <p>Category</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="colMenus">
+                <a href="#">
+                  <img src="assets/img/promo.png" class="img-fluid">
+                  <p>Promo</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="colMenus">
+                <a href="#">
+                  <img src="assets/img/akun.png" class="img-fluid">
+                  <p>Akun</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="lib/jquery.actionSheet.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    var data1 = [
+      {icon: 'xxx.png', label: 'Beranda', id: 'xxx'},
+      {icon: 'xxx.png', label: 'Kategori', id: 'xxx'},
+      {icon: 'xxx.png', label: 'Promo', id: 'xxx'},
+      {icon: 'xxx.png', label: 'Bantuan', id: 'xxx'},
+    ];
+  </script>
+  <script>
+    var as = null;
+    $(function () {
+      var as = $('#actionSheet').ActionSheet({
+        data: data1,
+        labelField: 'label',
+        idField: 'id',
+        backgroundColor:'#fff',
+        color:'#333',
+      });
+
+      $('#btnShow').click(function () {
+        as.show();
+      });
+      $('#sa').click(function () {
+        as.hide();
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>

@@ -843,6 +843,115 @@ footer .copyright p span{
   padding-top: 9px;
 }
 
+#allCategory .tabAllCategory a.linkCategory {
+  height: 65px;
+  font-size: 14px;
+  border-radius: 0px;
+  text-align: center;
+  background: #eaeaea;
+}
+#allCategory .tabAllCategory a.minuman {
+  padding-top: 23px;
+}
+#allCategory .tabAllCategory a.active {
+  color: #222222;
+  background: #ffffff;
+}
+
+
+
+
+#allCategory {
+  padding-top: 58px !important;
+  margin-top: 0px !important;
+}
+#allCategory .heading {
+  padding: 8px 9px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+}
+#allCategory .heading h2{
+  float: left;
+  color: #009975;
+  font-size: 12px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+#allCategory .heading h2 span{
+  font-weight: bold;
+}
+#allCategory .heading .more {
+  float: right;
+}
+#allCategory .heading .more .textMore {
+  color: #009975;
+  padding: 5px 9px;
+  border-radius: 15px;
+  border: 2px solid #009975;
+}
+#allCategory .heading .more .textMore p {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 600;
+}
+#allCategory .heading .timer{
+  float: right;
+  margin-bottom: 0px;
+}
+#allCategory .heading .timer .time{
+  float: left;
+  padding: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: 4px;
+  border-radius: 3px;
+  background: #e91c06;
+  font-family: sans-serif;
+}
+#allCategory .item img {
+  margin-bottom: 10px;
+}
+#allCategory .descProduk h2 {
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+#allCategory .descProduk .price del {
+  margin: 0px;
+  font-size: 12px;
+}
+#allCategory .descProduk .price p {
+  margin: 0px;
+  font-size: 14px;
+  margin-top: -5px;
+  font-weight: 600;
+}
+#allCategory .item {
+  border: 1px solid #dddddd;
+  border-radius: 7px;
+  box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px;
+}
+#allCategory .item .descProduk {
+  height: 95px;
+  padding: 5px 10px 10px 10px;
+}
+#allCategory .headingLatest {
+  padding-top: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+  border-top: 1px solid #f1f1f1;
+}
+
+
+
+
+
+
+
+
+
+
+
 /** Modal Cartr **/
 .modal-content-cart {
   width: 100%;
