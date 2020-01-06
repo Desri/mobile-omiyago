@@ -122,6 +122,65 @@ button.slick-next {
   text-transform: uppercase;
 }
 
+#modalListAddAddress .formSearch form {
+  position: relative;
+}
+#modalListAddAddress .formSearch form .form-group input{
+  padding-left: 35px;
+  background: #ececec;
+}
+#modalListAddAddress .formSearch form button{
+  top: 0;
+  border: 0px;
+  color: #a1a1a1;
+  position: absolute;
+  background: transparent;
+}
+#modalListAddAddress .listAddresss .card .card-body h6 span {
+  background: #3abba2;
+  color: #ffffff;
+  padding: 1px 5px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+#modalListAddAddress .listAddresss .card .card-body h5 {
+  font-weight: 600;
+  font-size: 15px;
+}
+#modalListAddAddress .listAddresss .card .card-body p.phoneAddress {
+  font-size: 14px;
+  margin: 0px;
+}
+#modalListAddAddress .listAddresss .card .card-body p.addressShipping {
+  margin: 0px;
+  font-size: 14px;
+}
+#modalListAddAddress .listAddresss .card .card-body a.card-link {
+  color: #1ABC9C;
+  font-size: 14px;
+  font-weight: 600;
+}
+#modalListAddAddress .listAddresss .card .card-footer p{
+  margin: 0px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#modalNewAddAddress .modal-body .formNewAddAddress form .form-group {
+  margin-bottom: 5px;
+}
+#modalNewAddAddress .modal-body .formNewAddAddress form label {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+#modalNewAddAddress .modal-body .formNewAddAddress form input {
+  font-size: 15px;
+}
+#modalNewAddAddress .modal-body .formNewAddAddress form textarea {
+  font-size: 15px;
+}
+
+
 .navbarCategory {
   background: #009975 !important;
 }

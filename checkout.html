@@ -167,11 +167,45 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body pt-0">
-          
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Pilih</button>
+        <div class="modal-body">
+          <div class="formSearch">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Cari alamat...">
+              </div>
+              <button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+          </div>
+          <div class="listAddresss mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Alamat kantor <span>Utama</span> </h6>
+                <h5 class="nameAddress">Johny</h5>
+                <p class="phoneAddress">083878675578</p>
+                <p class="addressShipping">Jl. Alpukat 7 No 2 Rt.4/6 Tj. Duren Utara. Grogol petamburan. Kota Jakarta Barat, Indonesia 11470</p>
+                <a href="#" class="card-link"><i class="fa fa-map-marker" aria-hidden="true"></i> Sudah Pinpoint</a>
+              </div>
+              <div class="card-footer text-muted">
+                <p>Ubah Alamat</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="listAddresss">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Alamat rumah </h6>
+                <h5 class="nameAddress">Johny</h5>
+                <p class="phoneAddress">083878675578</p>
+                <p class="addressShipping">Jl. Alpukat 7 No 2 Rt.4/6 Tj. Duren Utara. Grogol petamburan. Kota Jakarta Barat, Indonesia 11470</p>
+                <a href="#" class="card-link"><i class="fa fa-map-marker" aria-hidden="true"></i> Sudah Pinpoint</a>
+              </div>
+              <div class="card-footer text-muted">
+                <p>Ubah Alamat</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -187,11 +221,94 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body pt-0">
-          
+        <div class="modal-body">
+          <div class="formNewAddAddress">
+            <form>
+              <div class="form-group">
+                <label>Alias untuk alamat ini</label>
+                <div class="input-group mb-1">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-address-card" aria-hidden="true"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Rumah, Kantor, dll">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Alamat</label>
+                <div class="input-group mb-1">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-address-card-o" aria-hidden="true"></i></div>
+                  </div>
+                  <textarea class="form-control" rows="3" placeholder="Alamat perumahan/kantor"></textarea>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Nama penerima</label>
+                <div class="input-group mb-1">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-user-o" aria-hidden="true"></i></div>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Bpk. Sugiharto">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Kecamatan</label>
+                <div class="input-group mb-1">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-map-pin" aria-hidden="true"></i></div>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Kecamatan">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Kode pos</label>
+                <div class="input-group mb-1">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-inbox" aria-hidden="true"></i></div>
+                  </div>
+                  <input type="text" class="form-control" placeholder="22262">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Email</label>
+                <div class="input-group mb-1">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                  </div>
+                  <input type="email" class="form-control" placeholder="name@domain.com">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Nomor kontak</label>
+                <div class="input-group mb-1">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                  </div>
+                  <input type="text" class="form-control" placeholder="08123456789">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Catatan untuk kurir</label>
+                <div class="input-group mb-1">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-commenting-o" aria-hidden="true"></i></div>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Letakkan di kotak surat">
+                </div>
+              </div>
+              
+            </form>
+          </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Pilih</button>
+          <button type="button" class="btn btn-primary">Send</button>
         </div>
       </div>
     </div>
@@ -269,8 +386,6 @@
       </div>
     </div>
   </div>
-  
-
   
 
   <!-- Bootstrap core JavaScript -->
