@@ -578,7 +578,7 @@ button.slick-next {
 #thankyouPage .textThankyou .norek .bankName p{
   margin: 0px;
 }
-    
+
 #thankyouPage .textThankyou .Totalprice p{
   font-weight: 600;
   margin: 0px;
@@ -878,6 +878,9 @@ footer .heading h2{
   color: #ffffff;
   font-size: 17px;
 }
+footer .linkFooter {
+  text-align: center;
+}
 footer .linkFooter ul {
   padding-left: 0px;
 }
@@ -950,6 +953,10 @@ footer .copyright p span{
   z-index: 999;
   position: fixed;
   background: #ffffff;
+}
+#menuButtonDetail .container {
+  margin: 0px;
+  max-width: 100%;
 }
 #menuButtonDetail .colChatButton {
   height: 100%;
