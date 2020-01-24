@@ -1284,9 +1284,6 @@ footer .copyright p span{
   margin-top: 13px;
   border: 1px solid #01906e;
 }
-
-
-
 .modal-content-cart .modal-body .jumlah .textQty span {
   font-size: 16px;
   color: #7f7f7f;
@@ -1297,4 +1294,14 @@ footer .copyright p span{
 #modalCart .modal-dialog {
   margin: 0px;
   height: 100%;
+}
+
+
+@media only screen and (min-width : 480px) and (max-width : 769px) {
+  #mainNav .container form {
+    width: 87% !important;
+  }
+  #mainNav .container .iconTop {
+    width: 10%;
+  }
 }
